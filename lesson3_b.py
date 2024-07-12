@@ -1,4 +1,4 @@
-from pygame import *
+
 
 #parent class for other sprites
 class GameSprite(sprite.Sprite):
@@ -156,7 +156,7 @@ while run:
                packman.x_speed = 0 
            elif e.key == K_UP:
                packman.y_speed = 0
-           elif .key == K_DOWN:
+           elif e.key == K_DOWN:
                packman.y_speed = 0
 
 #check if the game is not finished yet
