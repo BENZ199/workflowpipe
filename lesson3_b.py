@@ -1,4 +1,4 @@
-
+from pygame import 
 
 #parent class for other sprites
 class GameSprite(sprite.Sprite):
